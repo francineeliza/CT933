@@ -30,7 +30,7 @@ public class TabelaPrice {
             }
             System.out.printf("Parcela %d | Juros: R$ %.2f | Amortização: R$ %.2f | Saldo devedor: R$ %.2f%n", i + 1, juros, amortizacao, saldoDevedor);
         }
-        System.out.printf("Total: Prestação %.2f, Juros R$ %.2f, Amortização R$ %.2f", totalPrestacao, totalJuros, totalAmortizacao);
+        System.out.printf("Total: Prestação R$ %.2f, Juros R$ %.2f, Amortização R$ %.2f", totalPrestacao, totalJuros, totalAmortizacao);
         sc.close();
     }
 }
